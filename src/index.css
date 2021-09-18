@@ -1,13 +1,24 @@
-body {
+html,
+body,
+#viewDiv {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-group button {
+  cursor: pointer;
+  padding: 9px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 0px;
+  border-width: 0px;
+  margin-right: 5px;
+}
+.btn-group button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.btn-group button:focus {
+  background-color: rgba(0, 0, 0, 0.08);
 }
